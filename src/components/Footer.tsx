@@ -6,9 +6,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { name: 'GitHub', url: '#', icon: Code },
-    { name: 'LinkedIn', url: '#', icon: User },
-    { name: 'Email', url: '#', icon: Mail }
+    { name: 'GitHub', url: 'https://github.com/kashifhussain007', icon: Code },
+    { name: 'LinkedIn', url: 'www.linkedin.com/in/kashif-hussain-a48482251', icon: User },
+    { name: 'Email', url: 'kashifaurangzaib777', icon: Mail }
   ];
 
   return (
@@ -66,10 +66,10 @@ const Footer = () => {
         <div className="border-t border-slate-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Kashif. All rights reserved.
+              © {currentYear} Kashif Hussain. All rights reserved.
             </p>
             <p className="text-gray-400 text-sm flex items-center mt-4 md:mt-0">
-              Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> using React & TypeScript
+              Made with  React & TypeScript
             </p>
           </div>
         </div>
